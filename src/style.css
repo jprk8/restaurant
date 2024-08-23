@@ -47,7 +47,7 @@ nav {
     gap: 30px;
 }
 
-.nav-btn {
+nav button {
     width: 150px;
     padding: 4px 0;
     font-size: 20px;
@@ -55,6 +55,7 @@ nav {
     background-color: maroon;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 #content {
@@ -132,4 +133,62 @@ nav {
 }
 .footer a {
     color: inherit;
+}
+
+/* Menu CSS */
+.menu-title {
+    font-size: 54px;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 0 60px;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.description,
+.price {
+    font-size: 20px;
+}
+
+.sauce {
+    text-align: center;
+    font-size: 24px;
+    margin: 40px 0;
+    font-weight: 300;
+    white-space: pre;
+}
+
+.highlight {
+    font-weight: 800;
+    font-style: italic;
+    background-color: rgb(255, 255, 128);
+    color: black;
+    padding: 0 8px;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+
+.hoticon {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    right: 260px;
 }
