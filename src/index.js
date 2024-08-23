@@ -1,3 +1,6 @@
 import './style.css';
+import { showHome } from './home.js';
 
-console.log('Hello John');
+console.log('cock-a-doodle-doo');
+
+showHome();

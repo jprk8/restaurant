@@ -98,14 +98,14 @@ nav {
 
 .subtext1 {
     top: 250px;
-    right: 10px;
+    right: 20px;
     transform: rotate(-20deg);
     color: red;
 }
 
 .subtext2 {
     top: 550px;
-    left: -10px;
+    left: 0;
     transform: rotate(20deg);
     color: orange;
 }
@@ -121,6 +121,7 @@ nav {
 .maintext {
     font-size: 40px;
     font-weight: 700;
+    font-style: italic;
 }
 
 .footer {
