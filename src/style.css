@@ -58,11 +58,15 @@ nav button {
     cursor: pointer;
 }
 
+nav button:hover {
+    background-color: #eee;
+    color: maroon;
+}
+
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
 .title {
@@ -81,6 +85,7 @@ nav button {
     letter-spacing: 4px;
     font-weight: 800;
     margin-top: -10px;
+    position: relative; /* subtexts are anchored to subtitle */
 }
 
 .logo {
@@ -95,25 +100,26 @@ nav button {
     position: absolute;
     font-size: 34px;
     font-weight: 600;
+    letter-spacing: initial;
 }
 
 .subtext1 {
-    top: 250px;
-    right: 20px;
+    top: 150px;
+    right: -90px;
     transform: rotate(-20deg);
     color: red;
 }
 
 .subtext2 {
-    top: 550px;
-    left: 0;
+    top: 450px;
+    left: -100px;
     transform: rotate(20deg);
     color: orange;
 }
 
 .subtext3 {
-    top: 680px;
-    right: 10px;
+    top: 600px;
+    right: -100px;
     font-size: 52px;
     font-weight: 800;
     color: greenyellow;
@@ -191,4 +197,11 @@ nav button {
     position: absolute;
     top: 110px;
     right: 260px;
+}
+
+.about {
+    width: 60ch;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 30px;
 }

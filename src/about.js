@@ -1,7 +1,7 @@
 import hotwing from './img/hotwing.png';
-export { showHome };
+export { showAbout };
 
-function showHome() {
+function showAbout() {
     const content = document.getElementById('content');
 
     const title = document.createElement('div');
@@ -28,13 +28,23 @@ function showHome() {
 
     const maintext = document.createElement('div');
     maintext.classList.add('maintext');
-    maintext.textContent = 'Taste the healthiest chicken in the world!';
+    maintext.textContent = 'Rooster Boy voted as #1 Goodest Boy™ in the world!';
 
-    content.appendChild(title);
-    content.appendChild(subtitle);
-    subtitle.appendChild(subtext1);
-    subtitle.appendChild(subtext2);
-    subtitle.appendChild(subtext3);
-    content.appendChild(logo);
+    const about = document.createElement('div');
+    about.classList.add('about');
+    about.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Exercitationem quasi accusantium ipsam. Totam eum rem velit. 
+    Qui minus deleniti ipsum dolores cumque doloremque dolor, 
+    aut doloribus laboriosam soluta ratione velit debitis nulla consequatur totam voluptatum, 
+    enim officiis esse magnam voluptas, saepe veritatis quisquam. 
+    Eum repudiandae saepe officia omnis eveniet voluptatem.`;
+
+    const bottomText= document.createElement('div');
+    bottomText.classList.add('maintext');
+    bottomText.textContent = 'All thanks to you!'
+
     content.appendChild(maintext);
+    content.appendChild(about);
+    content.appendChild(bottomText);
+    content.appendChild(logo);
 }

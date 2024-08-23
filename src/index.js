@@ -1,6 +1,7 @@
 import './style.css';
 import { showHome } from './home.js';
 import { showMenu } from './menu.js';
+import { showAbout } from './about.js';
 
 console.log('cock-a-doodle-doo');
 showHome();
@@ -28,3 +29,8 @@ menuBtn.addEventListener('click', () => {
     refreshContent();
     showMenu();
 });
+
+aboutBtn.addEventListener('click', () => {
+    refreshContent();
+    showAbout();
+})
