@@ -73,10 +73,11 @@ function showMenu() {
     const sauce2 = document.createElement('span');
     sauce2.classList.add('sauce');
 
-    sauce1.textContent = `Every food item includes Roosterbilt's`;
-    highlight.textContent = '5 Alltaste Flavor Sauces';
-    sauce2.textContent = `\nRandomly generated from a proprietary algorithm using all possible taste a human tastebud can taste.
-    Remember Every Flavour Beans? Yea it's like that.
+    sauce1.textContent = `Every food item includes a bundle of Roosterbilt's`;
+    highlight.textContent = 'Alltaste Flavor Sauces';
+    sauce2.textContent = `\nrandomly generated from a proprietary algorithm using
+    all possible taste a human tastebud can taste.
+    Remember every flavour beans?
     Taste the rainbow.`;
 
     sauce1.appendChild(highlight);
